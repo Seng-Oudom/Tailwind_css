@@ -3,32 +3,33 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
     },
-    colors: {
-      'blue': '#1fb6ff',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+    spacing: {
+      1: "8px",
+      2: "12px",
+      3: "16px",
+      4: "24px",
+      5: "32px",
+      6: "48px",
     },
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
+
     extend: {
-      spacing: {
-        '128': '32rem',
-        '144': '36rem',
+      colors: {
+        vuejs: {
+          100: "#49e659",
+          932: "#434252",
+        },
       },
-      borderRadius: {
-        '4xl': '2rem',
-      }
-    }
-  }
-}
+      fontSize: {
+        xs: '12px',
+        sm: '15px',
+        base: "18px",
+      },
+    },
+  },
+  plugins: [],
+};

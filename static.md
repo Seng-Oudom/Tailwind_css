@@ -1,6 +1,13 @@
-# Tailwind_css
-
-Start the Tailwind CLI build process
-
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
-
+<!-- .Colors -->
+<!-- .Customization -->
+<!-- .Typography -->
+<!-- .Spaces & sizes -->
+.Flex
+.Grids
+.Layouts
+.Borders
+.Effects & filters
+.Animations
+.Core concepts
+.Design System
+.Dark mode
