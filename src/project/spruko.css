@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-black;
+    font-family: Georgia, serif;
+  }
+  body {
+    @apply font-size: .813rem;
+    line-height: 1.5;
+    text-align: start;
+  }
+}
