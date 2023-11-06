@@ -2,11 +2,11 @@
 <!-- .Customization -->
 <!-- .Typography -->
 <!-- .Spaces & sizes -->
-.Flex
-.Grids
-.Layouts
-.Borders
-.Effects & filters
+<!-- .Flex -->
+<!-- .Grids -->
+<!-- .Layouts -->
+<!-- .Borders -->
+<!-- .Effects & filters -->
 .Animations
 .Core concepts
 .Design System

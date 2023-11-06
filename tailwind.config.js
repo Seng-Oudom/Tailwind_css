@@ -3,10 +3,12 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
+      screens: {
+        md: "1024px",
+        lg: "1280px",
+        xl: "1920px",
+        "2xl": "2140px",
+      },
     },
     spacing: {
       1: "8px",
@@ -25,8 +27,8 @@ module.exports = {
         },
       },
       fontSize: {
-        xs: '12px',
-        sm: '15px',
+        xs: "12px",
+        sm: "15px",
         base: "18px",
       },
     },
