@@ -8,8 +8,42 @@
     font-family: Georgia, serif;
   }
   body {
-    @apply font-size: .813rem;
+    font-size: 0.813rem;
     line-height: 1.5;
     text-align: start;
+    background-color: #f3f3f3;
+  }
+  ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+  }
+  .slide__category {
+    color: #a3aed1;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.065rem;
+    text-transform: uppercase;
+    padding: 0.75rem 1.65rem;
+    white-space: nowrap;
+    /* opacity: 0.5; */
+    position: relative;
+  }
+  .main-header-container .header-link {
+    padding: 1rem 0.65rem;
+  }
+  .side-menu__label {
+    white-space: nowrap;
+    color: #a3aed1;
+    position: relative;
+    font-size: 0.85rem;
+    line-height: 1;
+    vertical-align: middle;
+    margin-block: 0.25rem;
+  }
+  .badge {
+    padding: 0.25rem 0.45rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
   }
 }
