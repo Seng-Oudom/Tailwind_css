@@ -1,6 +1,7 @@
 # Tailwind_css
 
-Start the Tailwind CLI build process
+Start the Tailwind with: npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+
 
